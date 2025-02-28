@@ -13,10 +13,6 @@ from sklearn.metrics import roc_curve, auc
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 
 
-# First creating a class to test easily different models.
-# /!\/!\ This class was partially reused from part of previous projects and improved for iterative enhancement in future projects.
-# /!\/!\ So the doc string is not up-to-date /!\/!\
-
 class EasyModel:
     """
     A class to automate model training, evaluation, and selection.
